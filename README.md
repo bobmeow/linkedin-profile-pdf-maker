@@ -1,4 +1,4 @@
-# LinkedIn Profile PDF maker
+# LinkedIn Profile PDF Maker
 ## Getting Started
 
 First, run npm install and then run the development server:
