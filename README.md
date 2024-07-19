@@ -1,7 +1,7 @@
 # LinkedIn Profile PDF Maker
 ## Getting Started
 
-First, run npm install and then run the development server:
+First, run npm install and then run the development server (make sure you are on a Mac and using Node.js 18.17 or later):
 
 ```bash
 npm install
