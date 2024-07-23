@@ -18,9 +18,8 @@ Run this command to open up Chrome in remote debugging mode on your Mac:
 
 You will see a line in the output that looks like this:
 
-```bash
-DevTools listening on ws://127.0.0.1:21222/devtools/browser/1f4ec3c4-28bf-4f75-8c77-0b40f0e60c92
-```
+
+`DevTools listening on ws://127.0.0.1:21222/devtools/browser/1f4ec3c4-28bf-4f75-8c77-0b40f0e60c92`
 
 Copy the last path value on the websocket URI, (`1f4ec3c4-28bf-4f75-8c77-0b40f0e60c92` for example here)
 
