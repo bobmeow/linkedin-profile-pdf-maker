@@ -187,7 +187,8 @@ export default function Home() {
   const [scrapedData, setScrapedData] = useState<ScrapedData | undefined>(
     undefined
   );
-  const handleSubmit = async () => {
+
+  const handleClick = async () => {
     try {
       const data = await scrape(chromeSocket, linkedInURL);
       setScrapedData(data);
@@ -237,7 +238,7 @@ export default function Home() {
             onChange={(e) => setLinkedInURL(e.target.value)}
             style={styles.textField}
           />
-          <Button onClick={async () => handleSubmit()} style={styles.button}>
+          <Button onClick={handleClick} style={styles.button}>
             click me
           </Button>
         </div>
